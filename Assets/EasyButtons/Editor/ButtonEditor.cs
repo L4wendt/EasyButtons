@@ -11,10 +11,12 @@ namespace EasyButtons
     {
         public override void OnInspectorGUI()
         {
+			// Draw the rest of the inspector as usual
+            DrawDefaultInspector();
+			
             this.DrawEasyButtons();
 
-            // Draw the rest of the inspector as usual
-            DrawDefaultInspector();
+
         }
     }
 }
